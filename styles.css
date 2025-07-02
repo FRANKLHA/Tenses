@@ -1,0 +1,43 @@
+.section {
+  white-space: nowrap; /* Evita saltos de línea */
+}
+.section p {
+  display: inline; /* Hace que los <p> se comporten como elementos en línea (como <span>) */
+  margin: 0;       /* Elimina márgenes por defecto */
+  padding: 0;      /* Elimina relleno por defecto */
+}
+.afirmativo,.negativo,.interrogativo,.interrogativo_,.answer, .wh_question {
+  color: green;
+}
+.pronombre{
+  color: blue;
+}
+.Vbe, .contraccionVbe, .negacion, .aux{
+  color: red;
+}
+.pregunta{
+  color: brown;
+}
+.wh{
+  color: #FF5733 ;
+}
+
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #ddd; padding: 1px; text-align: center; }
+th { background-color: #f2f2f2; }
+
+.v1{
+  color: #581845;
+}
+.v2{
+  color:  #225600;
+}
+.v3{
+  color: #05b578 ;
+}
+.v4{
+  color: #0598b5 ;
+}
+.v5{
+  color: red;
+}
